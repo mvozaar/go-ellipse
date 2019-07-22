@@ -11,5 +11,6 @@ type Init struct {
 
 func (e* Init) GetEccentricity() float64 {
 	fmt.Println("")
+	fmt.Println("...")
 	return (math.Sqrt(math.Pow(e.A, 2) - math.Pow(e.B, 2))) / e.A
 }
